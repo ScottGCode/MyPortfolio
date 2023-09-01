@@ -5,25 +5,13 @@
 I wanted to create a webpage that would display my professional portfolio as a web developer. I wanted the webpage to include links that would take you to previous work I have completed, links to a section with information about me, and and link to contact me. I also wanted the webpage to be presented with a responsive layout that would adapt to any and all viewports. I created this webpage to display all of this in one easy to read place. I learned alot along the way inlcuding HTML structuring and CSS styling, which is what I used to build out this webpage. I plan to make regular changes to this webpage as I learn more throughout my studies. 
 
 
-## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+To use and view this webpage follow the linked URL.
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+I'd like to credit W3 schools for their inspiration and instruction. I viewed alot of tutorials however I wanted to write all the code myself.
 
 ## License
 
