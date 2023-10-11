@@ -1,0 +1,218 @@
+body{
+    padding: 0;
+    margin: 0;      
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-image: url(../assets/images/scott\ fsng.jpg);
+    background-size: cover;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header{
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.header:hover{
+    color: green;
+    cursor: copy;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+}   
+
+.navbar{
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 0px;
+    background-color: beige;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: green;
+    transition: .4s;
+}
+
+.content{
+    position:fixed;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 22px;
+    background-color: black; 
+    color: white; 
+}  
+
+.content h2{
+    display: flex;
+}
+
+.content h2:hover{
+    color: green;
+    transition: .4s;
+}
+
+.aboutme{
+    display: flex;
+
+}
+
+#aboutme, #work, #resume, #contact{
+    margin-bottom: 40px;
+    padding: 60px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+#aboutme h3, #work h3, #resume h3, #contact h3 {
+    color: white;
+    font-size: 40px;
+}
+
+#aboutme p, #work p, #resume p, #contact p {
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.container1 {
+    width: 60%;
+    margin: 2rem auto; 
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem; 
+  }
+  
+  .gallery__img {
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+    border-radius: 30px;
+    opacity: .2;
+  }
+
+.gallery__item:hover img {
+  transform: scale(1.1); 
+  opacity: 1;
+}
+
+ .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+   .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+   }
+
+   .gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+   }
+
+   .gallery__item--4 { 
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+   }
+   
+   .gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+   }
+   
+   .gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+   }  
+
+
+.footer{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: beige;
+    color:#fff    
+}
+
+.footerlinks ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    left: 750px;
+}
+
+.footerlinks ul li{
+    margin: 0 10px;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.button, .button1, .button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: grabbing;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.button1:hover {
+    background-color: black;
+}
+
+
+.button2:hover {
+    background-color: black; 
+}
